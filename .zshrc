@@ -1,3 +1,8 @@
+# Sourcing local config (env vars, etc.)
+if [[ -f ~/.zshrc.local ]]; then
+    source ~/.zshrc.local
+fi
+
 # Configuration shortcuts files
 alias conf="vim ~/.zshrc"
 alias vconf="vim ~/.vimrc"
