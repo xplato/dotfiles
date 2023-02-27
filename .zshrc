@@ -4,8 +4,8 @@ if [[ -f ~/.zshrc.local ]]; then
 fi
 
 # Configuration shortcuts files
-alias conf="vim ~/.zshrc"
-alias vconf="vim ~/.vimrc"
+alias conf="vim ~/Documents/Projects/@xplato/dotfiles/.zshrc"
+alias vconf="vim ~/Documents/Projects/@xplato/dotfiles/.vimrc"
 
 # Functions
 function mkcd {
@@ -31,6 +31,7 @@ generate_function dev "dev"
 generate_function watch "watch"
 generate_function lint "lint"
 generate_function format "format"
+generate_function install "install"
 
 # Scripts
 alias archive="zsh ~/Documents/Projects/@xplato/scripts/archive.sh"
