@@ -34,6 +34,7 @@ generate_function format "format"
 
 # Scripts
 alias archive="zsh ~/Documents/Projects/@xplato/scripts/archive.sh"
+alias backup="zsh ~/Documents/Projects/@xplato/scripts/backup.sh"
 
 # Basic
 alias c="clear"
