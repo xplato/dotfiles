@@ -56,6 +56,8 @@ alias clone="git clone"
 alias branch="git checkout"
 alias branchn="git checkout -b"
 alias nbranch="git checkout -b"
+alias new="git checkout -b"
+alias main="branch main"
 
 # Mapping ls -> exa
 alias ls='exa --no-icons --group-directories-first --oneline'
