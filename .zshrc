@@ -31,11 +31,9 @@ generate_function dev "dev"
 generate_function watch "watch"
 generate_function lint "lint"
 generate_function format "format"
-generate_function install "install"
 
 # Scripts
 alias archive="zsh ~/Documents/Projects/@xplato/scripts/archive.sh"
-alias backup="zsh ~/Documents/Projects/@xplato/scripts/backup.sh"
 
 # Basic
 alias c="clear"
@@ -54,8 +52,6 @@ alias pull="git pull origin"
 alias merge="git merge"
 alias clone="git clone"
 alias branch="git checkout"
-alias branchn="git checkout -b"
-alias nbranch="git checkout -b"
 alias new="git checkout -b"
 alias main="branch main"
 
