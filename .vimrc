@@ -1,5 +1,6 @@
 call plug#begin()
   Plug 'preservim/nerdtree'
+  Plug 'ctrlpvim/ctrlp.vim'
 call plug#end()
 
 " I guess this helps on modern systems?
@@ -68,12 +69,12 @@ syntax on
 let mapleader = ","
 
 " Key mappings
-map <leader>q :q<CR>
-map <leader>s :w<CR>
-map <leader>w :wq<CR>
-map <leader>e :NERDTreeToggle<CR>
-map <leader>conf :tabnew ~/.config/vim/.vimrc<CR>
-map <leader>p :CtrlP<CR>
+map <leader>q :q<cr>
+map <leader>s :w<cr>
+map <leader>w :wq<cr>
+map <leader>e :NERDTreeToggle<cr>
+map <leader>conf :tabnew ~/.config/vim/.vimrc<cr>
+map <leader>p :CtrlP<cr>
 
 " Copy the current visual selection
 " to the system clipboard. Run vim
@@ -86,4 +87,10 @@ map <leader>c "*y
 map <leader>n :tabnew<cr>
 map <leader>tn :tabnew<cr>
 map <leader>m :tabclose<cr>
-map <leader>tt :tabnext<CR>
+map <leader>tw :tabclose<cr>
+map <leader>tt :tabnext<cr>
+
+" Mappings for panes/viewports
+map <leader>d :vsp<cr>
+map <leader>v <c-w><c-w>
+
