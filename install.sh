@@ -23,3 +23,9 @@ mkdir "$vim_root"
 mkdir "$vim_root"/backup
 mkdir "$vim_root"/swap
 mkdir "$vim_root"/undo
+
+# Include Git setup
+git config --global user.name "Tristan B."
+git config --global user.email "tristan@infi.im"
+git config --global core.editor "vim"
+git config --global core.excludesFile '~/.gitignore'

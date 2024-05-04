@@ -55,10 +55,10 @@ alias branch="git checkout"
 alias new="git checkout -b"
 alias main="branch main"
 
-# Mapping ls -> exa
-alias ls='exa --no-icons --group-directories-first --oneline'
-alias la='exa -a --no-icons --group-directories-first'
-alias lo='exa --no-icons --group-directories-first --oneline'
+# Mapping ls -> eza
+alias ls='eza --group-directories-first --oneline'
+alias la='eza -a --group-directories-first'
+alias lo='eza --group-directories-first --oneline'
 
 # Navigation
 alias 1='cd ../'
