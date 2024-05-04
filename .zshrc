@@ -72,15 +72,13 @@ alias ....='cd ../../../../'
 
 # Directories
 alias docs='cd ~/Documents'
+alias work='cd ~/Workspace'
 alias down='cd ~/Downloads'
 alias desk='cd ~/Desktop'
-alias seam="cd ~/Documents/Projects/Seam"
-alias proj='docs && cd Projects'
-alias @='proj && cd @xplato'
 
 # Flushing modules
-alias flush_node="find ~/Documents -name 'node_modules' -type d -prune -exec rm -rf {} +"
-alias flush_next="find ~/Documents -name '.next' -type d -prune -exec rm -rf {} +"
+alias flush_node="find ~/Workspace -name 'node_modules' -type d -prune -exec rm -rf {} +"
+alias flush_next="find ~/Workspace -name '.next' -type d -prune -exec rm -rf {} +"
 
 # PATH stuff
 export PATH="/usr/local/bin:$HOME/bin:/opt/homebrew/bin:/Users/$USER/.local/bin:$PATH"
