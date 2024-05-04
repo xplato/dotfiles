@@ -33,7 +33,7 @@ generate_function lint "lint"
 generate_function format "format"
 
 # Scripts
-alias archive="zsh ~/Documents/Projects/@xplato/scripts/archive.sh"
+alias archive="zsh ~/Workspace/Configuration/scripts/archive.sh"
 
 # Basic
 alias c="clear"
