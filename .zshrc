@@ -42,6 +42,9 @@ alias q='cd ../'
 alias edit='code .'
 alias reload="source ~/.zshrc"
 
+# Remap `rm` so I don't have THAT issue happen again
+alias rm="rm -i"
+
 # Git
 alias gs="git status"
 alias gg="git log --oneline --abbrev-commit --all --graph --decorate --color"
