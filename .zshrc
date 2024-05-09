@@ -79,6 +79,10 @@ alias work='cd ~/Workspace'
 alias down='cd ~/Downloads'
 alias desk='cd ~/Desktop'
 
+# Misc.
+alias hide="chflags hidden"
+alias unhide="chflags nohidden"
+
 # Flushing modules
 alias flush_node="find ~/Workspace -name 'node_modules' -type d -prune -exec rm -rf {} +"
 alias flush_next="find ~/Workspace -name '.next' -type d -prune -exec rm -rf {} +"
